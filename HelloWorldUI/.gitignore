@@ -1,0 +1,8 @@
+include/*
+MOTOMAGX_0.3_x86_Debug/*.o
+MOTOMAGX_0.3_x86_Debug/moc_*
+MOTOMAGX_0.3_x86_Debug/include/*
+
+MOTOMAGX_0.3_x86_Release/*.o
+MOTOMAGX_0.3_x86_Release/moc_*
+MOTOMAGX_0.3_x86_Release/include/*

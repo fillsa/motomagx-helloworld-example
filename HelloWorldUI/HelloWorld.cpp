@@ -98,10 +98,10 @@ MainWindow::MainWindow(QWidget *parent)
 #endif
 	
 #if 0 // ZSplitPane есть во всех магиксах и эмуле, но нету заголовочных файлов
-	ZSplitPane * sp = new ZSplitPane();
+	ZSplitPane * sp = new ZSplitPane( ZMainWidget::getContentWidget(SUB41(param_1,0)) , "", 0, 0x );
 /*	
-	aa->setPixmap(QPixmap(iconReader.getIcon("gen_accelerator_1_small" )));
-	aa->setPane( p1,tabWidget);
+	sp->setPixmap(QPixmap(iconReader.getIcon("gen_accelerator_1_small" )));
+	sp->setPane( p1,tabWidget); // sp->setPane((QWidget *)param_1[0x3e],(QWidget *)param_1[0x3f]);
 */
 #endif
 
@@ -195,7 +195,9 @@ MainWindow::MainWindow(QWidget *parent)
 //	ZButton * but = new ZButton( this );
 //	spanel->addChild(but, 5 , 100);
 
-
+/*
+  ZTimeControl * this_01 = new ZTimeControl(SUB41(uVar5,0),(QString *)local_70,0,this,"",0);
+*/
 	ZMeter * meter = new ZMeter(7 ); // библиотеки в эмуляторе неподдерживает добавление ZMeter в ZFormContainer
 	spanel->addChild( meter , 5 , 103); 
 
@@ -333,6 +335,7 @@ MainWindow::MainWindow(QWidget *parent)
 	qDebug("tab 5");
 	
 	ZListBox * ListBox = new ZListBox( /* "%r%M" , tabWidget , 0*/  );
+	// aura = new ZListBox("%I%M",this,0,0x28);
 	// aura  = new ZListBox((QString)0xc8,*(QWidget **)(pQParm1 + 0x10c),0,0x28);
 #if ! defined(EZX_AURA)  // на ауре крошится добавление и с this и c NULL И с пустотой
 	tabWidget->addTab(ListBox, QIconSet(iconReader.getIcon("gen_accelerator_5_small" )), "List");

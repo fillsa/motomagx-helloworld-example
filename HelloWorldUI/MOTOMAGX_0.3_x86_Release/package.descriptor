@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Descriptor version="1.0">
+    <AppIcon>
+        <small/>
+        <large/>
+        <animated/>
+        <svg/>
+        <simple/>
+    </AppIcon>
+    <AppID>bff4e2a2-1910-4d73-992f-9c9c55a32ddc</AppID>
+    <AppName>
+        <ResourceID/>
+        <default>HelloWorldUI</default>
+    </AppName>
+    <AppExecName>HelloWorldUI</AppExecName>
+    <AppExecArgs/>
+    <PkgType>Install</PkgType>
+    <RequiredSpace/>
+    <AppType>Native</AppType>
+    <Description>
+        <ResourceID/>
+        <default/>
+    </Description>
+    <MIMEType/>
+    <Version>1.0</Version>
+    <Vendor/>
+    <DateIssued>29 &#x441;&#x435;&#x43d; 2020</DateIssued>
+    <IsLockable>No</IsLockable>
+    <IsVisible>Yes</IsVisible>
+    <IsAutoRun>No</IsAutoRun>
+    <IsErasable>Yes</IsErasable>
+    <LogicalAppLoc>e8c83dac-db4e-4fb5-98a6-61de1998b277</LogicalAppLoc>
+</Descriptor>

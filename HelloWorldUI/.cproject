@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?fileVersion 4.0.0?>
+
+<cproject>
+<storageModule moduleId="org.eclipse.cdt.core.settings">
+<cconfiguration id="motomagx_03_x86_configuration_debug.1494019345">
+<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="motomagx_03_x86_configuration_debug.1494019345" moduleId="org.eclipse.cdt.core.settings" name="MOTOMAGX_0.3_x86_Debug">
+<externalSettings/>
+<extensions>
+<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+</extensions>
+</storageModule>
+<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+<configuration artifactExtension="" artifactName="HelloWorldUI" buildArtefactType="com.motorola.studio.linux.nativeArtefactType" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=com.motorola.studio.linux.nativeArtefactType" cleanCommand="rm -rf" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser" id="motomagx_03_x86_configuration_debug.1494019345" name="MOTOMAGX_0.3_x86_Debug" parent="motomagx_03_x86_configuration_debug" postannouncebuildStep="" postbuildStep="" preannouncebuildStep="" prebuildStep="">
+<folderInfo id="motomagx_03_x86_configuration_debug.1494019345." name="/" resourcePath="">
+<toolChain id="motmagx_03_x86_toolchain_debug.1747650330" name="MOTOMAGX 0.3 x86" superClass="motmagx_03_x86_toolchain_debug">
+<targetPlatform binaryParser="org.eclipse.cdt.core.ELF" id="motomagx_03_x86_toolchain_targetPlatform.473003842" name="MOTOMAGX Target Platform" superClass="motomagx_03_x86_toolchain_targetPlatform"/>
+<builder buildPath="${workspace_loc:/HelloWorldUI/MOTOMAGX_0.3_x86_Debug}" id="motomagx_03_x86_builder.900527244" keepEnvironmentInBuildfile="true" managedBuildOn="true" name="MOTODEV Make" superClass="motomagx_03_x86_builder"/>
+<tool id="motomagx_03_x86_moc.1105745959" name="QT Meta Object Compiler" superClass="motomagx_03_x86_moc"/>
+<tool id="motomagx_03_x86_compiler_debug.224650055" name="MOTODEV Compiler" superClass="motomagx_03_x86_compiler_debug">
+<option id="motomagx_03_x86_compiler_option_defined_symbols.631183394" name="Defined symbols (-D)" superClass="motomagx_03_x86_compiler_option_defined_symbols" valueType="definedSymbols">
+<listOptionValue builtIn="false" value="QWS"/>
+<listOptionValue builtIn="false" value="MOTODEV_STUDIO"/>
+</option>
+<option id="motomagx_03_x86_compiler_option_includes.1389858983" name="Include paths (-I)" superClass="motomagx_03_x86_compiler_option_includes" valueType="includePath">
+<listOptionValue builtIn="false" value="&quot;${SDK_INCLUDE_DIR}&quot;"/>
+<listOptionValue builtIn="false" value="./include"/>
+<listOptionValue builtIn="false" value="&quot;${SDK_X86_OS_INCLUDE_DIR}&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${SDK_PRIVATE_INCLUDE_DIR}&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${SDK_X86_OS_INCLUDE_DIR}/c++/3.4.3&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${SDK_X86_OS_INCLUDE_DIR}/c++/3.4.3/i686-mot-linux-gnu&quot;"/>
+</option>
+<option id="motomagx_03_x86_compiler_option_flags.319730246" name="Other Compiler flags" superClass="motomagx_03_x86_compiler_option_flags"/>
+<option id="motomagx_03_x86_compiler_option_debugflag_debug.114708667" name="Debug (-g)" superClass="motomagx_03_x86_compiler_option_debugflag_debug"/>
+<inputType id="motomagx_03_x86_compiler_input.813612633" name="Input - Code and Header Files" superClass="motomagx_03_x86_compiler_input"/>
+</tool>
+<tool id="motomagx_03_x86_linker.1491644566" name="MOTODEV Linker" superClass="motomagx_03_x86_linker">
+<option id="motomagx_03_x86_linker_option_libraries.141238696" name="Libraries (-l)" superClass="motomagx_03_x86_linker_option_libraries"/>
+<option id="motomagx_03_x86_linker_option_library_path.268276267" name="Library search path (-L)" superClass="motomagx_03_x86_linker_option_library_path"/>
+<option id="motomagx_03_x86_linker_option_runtime_library_path.1765915900" name="Runtime Library search path (-Wl,-rpath,)" superClass="motomagx_03_x86_linker_option_runtime_library_path"/>
+<option id="motomagx_03_x86_linker_option_datafiles_path.989400150" name="Data files path (-B)" superClass="motomagx_03_x86_linker_option_datafiles_path"/>
+<option id="motomagx_03_x86_linker_option_flags.813975755" name="Other Linker flags" superClass="motomagx_03_x86_linker_option_flags"/>
+</tool>
+</toolChain>
+</folderInfo>
+</configuration>
+</storageModule>
+<storageModule moduleId="scannerConfiguration">
+<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile"/>
+<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="makefileGenerator">
+<runAction arguments="-f ${project_name}_scd.mk" command="make" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileCPP">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileC">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+</storageModule>
+<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+<storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets">
+<buildTargets>
+<target name="" path="MOTOMAGX_0.3_x86_Debug" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+<buildCommand>make</buildCommand>
+<buildArguments>-k</buildArguments>
+<buildTarget/>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>true</useDefaultCommand>
+<runAllBuilders>true</runAllBuilders>
+</target>
+</buildTargets>
+</storageModule>
+</cconfiguration>
+<cconfiguration id="motomagx_03_x86_configuration_release.1055000046">
+<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="motomagx_03_x86_configuration_release.1055000046" moduleId="org.eclipse.cdt.core.settings" name="MOTOMAGX_0.3_x86_Release">
+<externalSettings/>
+<extensions>
+<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+</extensions>
+</storageModule>
+<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+<configuration artifactName="HelloWorldUI" buildArtefactType="com.motorola.studio.linux.nativeArtefactType" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=com.motorola.studio.linux.nativeArtefactType" cleanCommand="rm -rf" description="" errorParsers="org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser" id="motomagx_03_x86_configuration_release.1055000046" name="MOTOMAGX_0.3_x86_Release" parent="motomagx_03_x86_configuration_release">
+<folderInfo id="motomagx_03_x86_configuration_release.1055000046." name="/" resourcePath="">
+<toolChain id="motmagx_03_x86_toolchain_release.1382488857" name="MOTOMAGX 0.3 x86" superClass="motmagx_03_x86_toolchain_release">
+<targetPlatform binaryParser="org.eclipse.cdt.core.ELF" id="motomagx_03_x86_toolchain_targetPlatform.1710144336" name="MOTOMAGX Target Platform" superClass="motomagx_03_x86_toolchain_targetPlatform"/>
+<builder buildPath="${workspace_loc:/HelloWorldUI/MOTOMAGX_0.3_x86_Release}" id="motomagx_03_x86_builder.893950482" keepEnvironmentInBuildfile="true" managedBuildOn="true" name="MOTODEV Make" superClass="motomagx_03_x86_builder"/>
+<tool id="motomagx_03_x86_moc.1280567564" name="QT Meta Object Compiler" superClass="motomagx_03_x86_moc"/>
+<tool id="motomagx_03_x86_compiler_release.1004318504" name="MOTODEV Compiler" superClass="motomagx_03_x86_compiler_release">
+<inputType id="motomagx_03_x86_compiler_input.758091595" name="Input - Code and Header Files" superClass="motomagx_03_x86_compiler_input"/>
+</tool>
+<tool id="motomagx_03_x86_linker.890560342" name="MOTODEV Linker" superClass="motomagx_03_x86_linker"/>
+</toolChain>
+</folderInfo>
+</configuration>
+</storageModule>
+<storageModule moduleId="scannerConfiguration">
+<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile"/>
+<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="makefileGenerator">
+<runAction arguments="-f ${project_name}_scd.mk" command="make" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfile">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileCPP">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileC">
+<buildOutputProvider>
+<openAction enabled="true" filePath=""/>
+<parser enabled="true"/>
+</buildOutputProvider>
+<scannerInfoProvider id="specsFile">
+<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+<parser enabled="true"/>
+</scannerInfoProvider>
+</profile>
+</storageModule>
+<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+<storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets">
+<buildTargets>
+<target name="" path="MOTOMAGX_0.3_x86_Debug" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+<buildCommand>make</buildCommand>
+<buildArguments>-k</buildArguments>
+<buildTarget/>
+<stopOnError>true</stopOnError>
+<useDefaultCommand>true</useDefaultCommand>
+<runAllBuilders>true</runAllBuilders>
+</target>
+</buildTargets>
+</storageModule>
+</cconfiguration>
+</storageModule>
+<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+<project id="HelloWorldUI.com.motorola.studio.sdk.motomagx10_x86_abstractProjectType.1909136904" name="MOTOMAGX 0.3 x86 abstract ProjectType" projectType="com.motorola.studio.sdk.motomagx10_x86_abstractProjectType"/>
+</storageModule>
+</cproject>
